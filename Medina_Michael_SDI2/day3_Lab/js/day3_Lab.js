@@ -1,9 +1,9 @@
 
  /*
 Michael Medina
-Date
+7/14/2015
 Section 00
-Assignment
+Lab 3
  */
 
 alert("Let's find the acceleration of an object!");
@@ -30,5 +30,9 @@ alert("Let's find the acceleration of an object!");
  velocityArray /= time;
  console.log("The acceleration on the object is "+ velocityArray + " m/s.");
 
+
+ //Test 1: 20. 10. 5. Answer = 2m/s
+ //Test 2: 45. 12. 4. Answer = 8.5m/s
+ //Test 3. 67. 34. 5. Answer = 6.6m/s
 
  
