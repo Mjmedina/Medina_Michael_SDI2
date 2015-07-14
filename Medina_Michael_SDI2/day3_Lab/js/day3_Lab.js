@@ -35,4 +35,3 @@ alert("Let's find the acceleration of an object!");
  //Test 2: 45. 12. 4. Answer = 8.5m/s
  //Test 3. 67. 34. 5. Answer = 6.6m/s
 
- 
