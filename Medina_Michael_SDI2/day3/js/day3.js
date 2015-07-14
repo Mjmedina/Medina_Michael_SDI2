@@ -78,3 +78,4 @@ console.log(caught);
 fruitArray.splice(1,1,"lemon");
  console.log(fruitArray);
 
+
