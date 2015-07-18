@@ -32,4 +32,18 @@ Conditionals Assignment
  console.log("Your total hours playing video games "+totalHours);
 
 
-  
+ //Average
+ var averagePoints = parseInt(totalHours)/7;
+ console.log(("You played "+averagePoints+" hours this week"));
+
+ //Answers to input by user
+ if (gamesPlayed >= 9){
+     console.log("You have problems. Get off the console. Go outside. Talk to people. Just get off your ass.");
+ } else if(gamesPlayed >= 5){
+     console.log("You're getting close to playing too many video games. But it's fine we understand, they are great after all.");
+ } else if(gamesPlayed >=3){
+     console.log("You're fine keep playing video games, they are awesome!");
+ } else{
+     console.log("You should probably start playing some games before you get rusty ;)");
+ }
+ 
