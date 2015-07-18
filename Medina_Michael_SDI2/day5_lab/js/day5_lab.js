@@ -18,5 +18,18 @@ Conditionals Assignment
          gamesPlayed = parseInt(prompt("You can't run from your problems. Answer the question.\nNow then, how many hours did you play video games for?"));
      }
 
+ //Get the average for each day.
+ var questionArray =[];
+ var totalHours;
+
+ questionArray[0] = (parseInt(gamesPlayed));
+ //For loop to save user input in the array.
+ for(var i=1; i<8;i++)
+ {questionArray[i] = parseInt(prompt("How many hours did you play on day " + i))}
+ //Form the array.
+ totalHours = parseInt(questionArray[1])+ parseInt(questionArray[2])+ parseInt(questionArray[3])+ parseInt(questionArray[4])+ parseInt(questionArray[5])+parseInt(questionArray[6]);
+ //Display point totals.
+ console.log("Your total hours playing video games "+totalHours);
+
 
   
