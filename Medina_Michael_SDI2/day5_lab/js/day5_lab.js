@@ -46,4 +46,9 @@ Conditionals Assignment
  } else{
      console.log("You should probably start playing some games before you get rusty ;)");
  }
- 
+
+ //Test 1: 4,4,4,4,4,4,4. Result total: 28. Average hours played: 4.
+ //Test 2: 7,6,5,4,3,2,1. Result total: 27. Average hours played: 3.857142857142857.
+ //Test 3: 10,10,10,10,10,10,10. Result total: 60. Average hours played: 8.571428571428571.
+
+  
