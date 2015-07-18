@@ -1,18 +1,20 @@
 
  /*
 Michael Medina
-Date
+7/14/2015
 Section 00
-Assignment
+Day 4 Lab
  */
 
 //alert("Just testing!");
 
  //Average fuel econonomy
 
- var mpg = 30;
- var gasLeft = prompt("How much gas would you estimate is left in the tank?");
- var tankCapacity = 100;
+ var mpg = parseInt(prompt("How many miles per gallon does your car get?"));
+
+
+ var tankCapacity = parseInt(prompt("What is the capacity of your fuel tank?"));
+ var gasLeft = parseInt(prompt("How much gas would you estimate is left in the tank?"));
  var totalDistance = parseInt(mpg)*parseInt(tankCapacity);
  var tankPercent = parseInt(totalDistance) - gasLeft;
  var distance = totalDistance - tankPercent;
@@ -40,3 +42,22 @@ Assignment
  }else if(userName != "Tony"){
      console.log("Access Denied because you forgot your username");
  }
+
+
+ //Tire Pressure in a car
+
+ var pressureArray = [];
+
+ //Tire pressures
+ pressureArray[0] = prompt("How much PSI is in the front left tire?");
+ pressureArray[1] = prompt("How much PSI is in the front right tire?");
+ pressureArray[2] = prompt("How much PSI is in the back left tire?");
+ pressureArray[3] = prompt("How much PSI is in the back right tire?");
+
+
+ if((pressureArray[0] == pressureArray[1]) && (pressureArray[2] == pressureArray[3])) {
+     console.log("The tires pass spec!");
+ }else{
+     console.log("Get your tires checked!");
+ }
+
