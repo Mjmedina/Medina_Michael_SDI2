@@ -51,4 +51,3 @@ Conditionals Assignment
  //Test 2: 7,6,5,4,3,2,1. Result total: 27. Average hours played: 3.857142857142857.
  //Test 3: 10,10,10,10,10,10,10. Result total: 60. Average hours played: 8.571428571428571.
 
-  
