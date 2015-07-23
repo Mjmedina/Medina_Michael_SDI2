@@ -26,35 +26,68 @@ Assignment
 // printHello();
 //
 
- var width = 5;
-
- console.log("Starting width is "+width);
 
 
- //Create a function taht calculated the perim of a rectangle
- function calcPeri(){
+
+ //var width = 5;
+ //
+ //console.log("Starting width is "+width);
+ //
+ //
+ ////Create a function taht calculated the perim of a rectangle
+ //function calcPeri(){
+ //
+ //
+ //    //Create variables for width and height and perimeter.
+ //    //Try not to reuse variable names
+ //    //BUT this is going to be impossible for the larger files
+ //
+ //    //This variable is scoped to the function calcPeri
+ //    var width = 10;
+ //    console.log("Width inside of function is "+width);
+ //    var height = 20;
+ //    var perimeter = width*2 + height*2;
+ //
+ //    //Console.log the peramiter.
+ //    console.log("The perimiter is "+perimeter);
+ //
+ //}
+ //
+ //console.log("Before "+width);
+ //
+ ////Function call
+ //calcPeri();
+ //
+ //console.log("After "+width);
+ //
+ //console.log("The value of height is "+height);
 
 
-     //Create variables for width and height and perimeter.
-     //Try not to reuse variable names
-     //BUT this is going to be impossible for the larger files
+ //Argument - Goes in the function call - "Specific Values"
+ ///Perameters - goes in the function definition and these catch the arguments - "generic containers"
 
-     //This variable is scoped to the function calcPeri
+ //Create a function to calculate the area of a rectangle
+
+ //Create variables for width and height.
+ var width = 10;
+ var height = 20;
+
+ 
+
+
+ function calcArea(){
+
+     //Create variables
      var width = 10;
-     console.log("Width inside of function is "+width);
      var height = 20;
-     var perimeter = width*2 + height*2;
 
-     //Console.log the peramiter.
-     console.log("The perimiter is "+perimeter);
+     //Calculate the area
+     var area = width*height;
+
+     //Console.log the area
+     console.log("The area of a rectangle with a width of "+width+" and a height of "+height+" is "+area+".");
 
  }
+ calcArea();
 
- console.log("Before "+width);
-
- //Function call
- calcPeri();
-
- console.log("After "+width);
-
- console.log("The value of height is "+height);
+calcArea();
