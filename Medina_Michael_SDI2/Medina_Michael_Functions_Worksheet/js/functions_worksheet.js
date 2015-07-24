@@ -31,4 +31,10 @@ Assignment
  console.log("The cirfumference of your circle is: "+hold+".");
 
 
- 
+ //How man bees will it take to kill you!?!?!
+
+ var weight= prompt("How much do you weigh?");
+
+ function killerBees(w){
+
+     
