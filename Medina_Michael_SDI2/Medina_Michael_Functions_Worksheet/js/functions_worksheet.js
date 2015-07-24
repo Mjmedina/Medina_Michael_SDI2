@@ -37,4 +37,9 @@ Assignment
 
  function killerBees(w){
 
-     
+     var total= w*8.6666666667;
+
+     //console log it out
+     //console.log("If you weigh "+weight+"lbs, then it would take "+total+" bees to kill you");
+
+  
