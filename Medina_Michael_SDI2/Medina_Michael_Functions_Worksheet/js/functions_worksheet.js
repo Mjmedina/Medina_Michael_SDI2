@@ -46,4 +46,6 @@ Assignment
  }
  var b = killerBees(weight);
 
+ console.log("You would die from "+b+" bees.");
+
  
