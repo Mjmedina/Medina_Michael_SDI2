@@ -13,4 +13,11 @@ Assignment
  //Prompt user
  var rad = prompt ("What's the radius of the circle?");
 
- 
+ //Function to find it
+ function circleCircumf(rad){
+
+     var dia= 2*rad;
+     var cir= dia * Math.PI;
+
+
+     
