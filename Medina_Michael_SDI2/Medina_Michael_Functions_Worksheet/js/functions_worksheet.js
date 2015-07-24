@@ -20,4 +20,15 @@ Assignment
      var cir= dia * Math.PI;
 
 
-     
+     //Console log it out
+     //console.log("The circumference is: "+cir);
+     return cir;
+
+ }
+
+ var hold= circleCircumf(rad);
+
+ console.log("The cirfumference of your circle is: "+hold+".");
+
+
+ 
