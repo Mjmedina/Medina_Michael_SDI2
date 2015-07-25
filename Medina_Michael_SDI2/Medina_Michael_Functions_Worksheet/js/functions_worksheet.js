@@ -28,10 +28,15 @@ Assignment
 
  var hold= circleCircumf(rad);
 
- console.log("The cirfumference of your circle is: "+hold+".");
+ console.log("The circumference of your circle is: "+hold+".");
 
 
- //How man bees will it take to kill you!?!?!
+
+
+
+
+
+                            //How man bees will it take to kill you!?!?!
 
  var weight= prompt("How much do you weigh?");
 
@@ -48,4 +53,3 @@ Assignment
 
  console.log("You would die from "+b+" bees.");
 
- 
