@@ -44,20 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day9_random.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="day9_random.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day9/js/day9_random.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47651935" vertical-offset="0" max-vertical-offset="724">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day9_random.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day9_random.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day9/day9_random.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="700">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
               <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/day8/js/day8_returns.js" />
         <option value="$PROJECT_DIR$/Medina_Michael_Functions_Worksheet/functions_worksheet.html" />
         <option value="$PROJECT_DIR$/Medina_Michael_Functions_Worksheet/js/functions_worksheet.js" />
-        <option value="$PROJECT_DIR$/day9/js/day9_random.js" />
         <option value="$PROJECT_DIR$/day9/day9_random.html" />
+        <option value="$PROJECT_DIR$/day9/js/day9_random.js" />
       </list>
     </option>
   </component>
@@ -698,18 +698,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day9/js/day9_random.js">
+    <entry file="file://$PROJECT_DIR$/day9/day9_random.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day9/day9_random.html">
+    <entry file="file://$PROJECT_DIR$/day9/js/day9_random.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="700">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.47651935" vertical-offset="0" max-vertical-offset="724">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
