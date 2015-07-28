@@ -28,5 +28,17 @@ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are
  while(galRem===""|| isNaN(galRem)){
      galRem= prompt("Gwwwwwwgrrruuuuurrrrr!!");
  }
-
- 
+//Prompt the user for the miles per gallon in the vehicle.... Falcoln.
+ var milesPg = prompt("What is the Millenium Falcoln's mp/g");
+ while(milesPg===""|| isNaN(milesPg))
+     milesPg= prompt("Gwwwwwwgrrruuuuurrrrr!!");
+ //Calculate the fuel needs of the vehicle.... Falcoln
+ var gas = function(gl,mpg,mg){
+     var gasLeft = gl*mpg;
+     if(gasLeft>mg){
+         console.log("You're fine you don't need fancy space fuel!!");
+     }else{
+         console.log("Nahh man, we definitely need some of that fancy space fuel or else we won't make it "+mg+" miles.");
+     }
+     return[gasLeft,mg,mpg];
+ };
