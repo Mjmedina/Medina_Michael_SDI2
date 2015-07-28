@@ -6,7 +6,7 @@ Section 00
 Functions Assignment
  */
 
-alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are up to it? Let's see!");
+ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are up to it? Let's see!");
 
  //Prompt the user for total miles to be traveled.
  var travelMiles = prompt("Alright Chewy, how far are we traveling?");
@@ -28,7 +28,7 @@ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are
  while(galRem===""|| isNaN(galRem)){
      galRem= prompt("Gwwwwwwgrrruuuuurrrrr!!");
  }
-//Prompt the user for the miles per gallon in the vehicle....
+ //Prompt the user for the miles per gallon in the vehicle....
  var milesPg = prompt("What is the Millenium Falcoln's mp/g");
  while(milesPg===""|| isNaN(milesPg))
      milesPg= prompt("Gwwwwwwgrrruuuuurrrrr!!");
@@ -51,5 +51,10 @@ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are
  }
  //Time to bring it all together for the user.
  var ourGas=gas(galRem,milesPg,mT);
- console.log("Alright Han, we have "+ourGas[0]+" miles left in our tank. Our verage mpg is clocking in at "+ourGas[2]+" and we are "+ourGas[1]+"miles away from completing this mission!!!!");
+ console.log("Alright Han, we have "+ourGas[0]+" miles left in our tank. We are " +ourGas[1]+" miles away from completing this mission!!!! Our average mpg is clocking in at "+ourGas[2]+".");
 
+ //Test1: 123. 12. 11. 14. : 0.0975609756097561 min. 154 miles left in our tank. we are 12miles away. mpg is clocking in at 14.
+ //Test2: 999. 55. 44. 33. : 0.055055055055055056 min. 1452 miles left in our tank.  mpg is clocking in at 33.
+ //Test3: 500. 50. 20. 10. : 0.1 min.  200 miles left in our tank. we are 50miles away mpg is clocking in at 10.
+
+ 
