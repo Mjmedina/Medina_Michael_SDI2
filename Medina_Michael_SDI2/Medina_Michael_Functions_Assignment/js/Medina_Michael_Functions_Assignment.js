@@ -23,16 +23,16 @@ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are
  function tTime(m,mG){
      return mG/m;
  }
- //Promp the user for size of tank..... in the Falcoln
+ //Promp the user for size of tank.....
  var galRem = prompt("Do you need some fancy space fuel to get there?\nHow many gallons are left in your tank?");
  while(galRem===""|| isNaN(galRem)){
      galRem= prompt("Gwwwwwwgrrruuuuurrrrr!!");
  }
-//Prompt the user for the miles per gallon in the vehicle.... Falcoln.
+//Prompt the user for the miles per gallon in the vehicle....
  var milesPg = prompt("What is the Millenium Falcoln's mp/g");
  while(milesPg===""|| isNaN(milesPg))
      milesPg= prompt("Gwwwwwwgrrruuuuurrrrr!!");
- //Calculate the fuel needs of the vehicle.... Falcoln
+ //Calculate the fuel needs of the vehicle....
  var gas = function(gl,mpg,mg){
      var gasLeft = gl*mpg;
      if(gasLeft>mg){
@@ -42,3 +42,14 @@ alert ("What's up Han Solo!!! We're gna make the Kessel Run today. Think you are
      }
      return[gasLeft,mg,mpg];
  };
+ //Travel times
+ var time = tTime(travelMiles,mT);
+ if(time<1){
+     console.log("Okay it's going to take us "+time+" min to get there!");
+ }else{
+     console.log("Okay it's going to take us "+time+" min to get there!");
+ }
+ //Time to bring it all together for the user.
+ var ourGas=gas(galRem,milesPg,mT);
+ console.log("Alright Han, we have "+ourGas[0]+" miles left in our tank. Our verage mpg is clocking in at "+ourGas[2]+" and we are "+ourGas[1]+"miles away from completing this mission!!!!");
+
