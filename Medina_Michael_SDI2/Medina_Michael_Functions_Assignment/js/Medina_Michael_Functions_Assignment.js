@@ -23,6 +23,7 @@ Functions Assignment
  function tTime(m,mG){
      return mG/m;
  }
+ tTime();
  //Promp the user for size of tank.....
  var galRem = prompt("Do you need some fancy space fuel to get there?\nHow many gallons are left in your tank?");
  while(galRem===""|| isNaN(galRem)){

@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Medina_Michael_Functions_Assignment.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Medina_Michael_Functions_Assignment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Medina_Michael_Functions_Assignment/Medina_Michael_Functions_Assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="240">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="700">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Medina_Michael_Functions_Assignment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Medina_Michael_Functions_Assignment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Medina_Michael_Functions_Assignment/js/Medina_Michael_Functions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.07734807" vertical-offset="326" max-vertical-offset="1050">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1065">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,17 @@
         <entry file="file://$PROJECT_DIR$/day6_lab/js/day6_lab.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day8.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day8/js/day8.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1470">
+              <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -91,9 +101,7 @@
         <option value="$PROJECT_DIR$/day6/day6_validations.html" />
         <option value="$PROJECT_DIR$/day6/js/day6_validations.js" />
         <option value="$PROJECT_DIR$/day6_lab/day6_lab.html" />
-        <option value="$PROJECT_DIR$/day6_lab/js/day6_lab.js" />
         <option value="$PROJECT_DIR$/day8/day8.html" />
-        <option value="$PROJECT_DIR$/day8/js/day8.js" />
         <option value="$PROJECT_DIR$/day8/day8_returns.html" />
         <option value="$PROJECT_DIR$/day8/js/day8_returns.js" />
         <option value="$PROJECT_DIR$/Medina_Michael_Functions_Worksheet/functions_worksheet.html" />
@@ -109,6 +117,8 @@
         <option value="$PROJECT_DIR$/Medina_Michael_Functions_Assignment/Medina_Michael_Functions_Assignment.html" />
         <option value="$PROJECT_DIR$/day10/day10_review.html" />
         <option value="$PROJECT_DIR$/day10/js/day10_review.js" />
+        <option value="$PROJECT_DIR$/day6_lab/js/day6_lab.js" />
+        <option value="$PROJECT_DIR$/day8/js/day8.js" />
         <option value="$PROJECT_DIR$/Medina_Michael_Functions_Assignment/js/Medina_Michael_Functions_Assignment.js" />
       </list>
     </option>
@@ -160,6 +170,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Medina_Michael_SDI2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medina_Michael_SDI2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medina_Michael_SDI2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medina_Michael_SDI2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Medina_Michael_SDI2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,26 +474,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Medina_Michael_Functions_Assignment/Medina_Michael_Functions_Assignment.html">
+    <entry file="file://$PROJECT_DIR$/day6_lab/js/day6_lab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="240">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6_lab/js/day6_lab.js">
+    <entry file="file://$PROJECT_DIR$/day8/js/day8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1470">
+          <caret line="68" column="57" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Medina_Michael_Functions_Assignment/js/Medina_Michael_Functions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07734807" vertical-offset="326" max-vertical-offset="1050">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1065">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medina_Michael_Functions_Assignment/Medina_Michael_Functions_Assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="700">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ Assignment
 
 //alert("Just testing!");
 
- var myNumber = 100;
+ var myNumber = prompt("Please enter a number!");
 
  while (myNumber > 15) {
      console.log("My number is "+ myNumber);
