@@ -16,7 +16,7 @@ Functions Assignment
  }
  var mT = prompt("Now tell me, how many miles do you have to travel?");
  while(mT===""|| isNaN(mT)){
-     mT= prompt("Gwwwwwwgrrruuuuurrrrr!!");
+     mT= prompt("Gwwwwwwgrrruuuuurrrrr!!!");
  }
  //~~~~~~~~~~~~~
  //FUNction time. the 'FUN" is right in the word...
@@ -26,12 +26,12 @@ Functions Assignment
  //Promp the user for size of tank.....
  var galRem = prompt("Do you need some fancy space fuel to get there?\nHow many gallons are left in your tank?");
  while(galRem===""|| isNaN(galRem)){
-     galRem= prompt("Gwwwwwwgrrruuuuurrrrr!!");
+     galRem= prompt("Gwwwwwwgrrruuuuurrrrr!!!");
  }
  //Prompt the user for the miles per gallon in the vehicle....
  var milesPg = prompt("What is the Millenium Falcoln's mp/g");
  while(milesPg===""|| isNaN(milesPg))
-     milesPg= prompt("Gwwwwwwgrrruuuuurrrrr!!");
+     milesPg= prompt("Gwwwwwwgrrruuuuurrrrr!!!");
  //Calculate the fuel needs of the vehicle....
  var gas = function(gl,mpg,mg){
      var gasLeft = gl*mpg;
@@ -45,17 +45,19 @@ Functions Assignment
  //Travel times
  var time = tTime(travelMiles,mT);
  if(time<1){
-     console.log("Okay it's going to take us "+time+" min to get there!");
- }else{
-     console.log("Okay it's going to take us "+time+" min to get there!");
+     console.log("Okay it's only going to take us "+time+" min to get there!");
+ } else if(time<2){
+     console.log("Okay we still have a bit, it's going to take us "+time+" min to get there!");
+ } else{
+     console.log("Don't hold your breath, we still have "+time+" min until we get there. Might as well take a nap.")
  }
  //Time to bring it all together for the user.
  var ourGas=gas(galRem,milesPg,mT);
- console.log("Alright Han, we have "+ourGas[0]+" miles left in our tank. We are " +ourGas[1]+" miles away from completing this mission!!!! Our average mpg is clocking in at "+ourGas[2]+".");
+ console.log("*Onboard Computer* Alright Han, we have "+ourGas[0]+" miles left in our tank.\n We are " +ourGas[1]+" miles away from completing this mission!!!!\n Our average mpg is clocking in at "+ourGas[2]+".");
 
  //Test1: 123. 12. 11. 14. : 0.0975609756097561 min. 154 miles left in our tank. we are 12miles away. mpg is clocking in at 14.
  //Test2: 999. 55. 44. 33. : 0.055055055055055056 min. 1452 miles left in our tank.  mpg is clocking in at 33.
  //Test3: 500. 50. 20. 10. : 0.1 min.  200 miles left in our tank. we are 50miles away mpg is clocking in at 10.
 
-  
+
 
