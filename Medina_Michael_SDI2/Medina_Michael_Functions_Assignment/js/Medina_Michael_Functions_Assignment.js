@@ -57,4 +57,5 @@ Functions Assignment
  //Test2: 999. 55. 44. 33. : 0.055055055055055056 min. 1452 miles left in our tank.  mpg is clocking in at 33.
  //Test3: 500. 50. 20. 10. : 0.1 min.  200 miles left in our tank. we are 50miles away mpg is clocking in at 10.
 
- 
+  
+
