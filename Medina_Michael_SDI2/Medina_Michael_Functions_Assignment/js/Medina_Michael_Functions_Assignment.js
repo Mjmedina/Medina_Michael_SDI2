@@ -14,7 +14,7 @@ Functions Assignment
  while(travelMiles===""|| isNaN(travelMiles)){
      travelMiles= prompt("Gwwwwwwgrrruuuuurrrrr!!");
  }
- var mT = prompt("Now tell me, how many miles do you have to travel?");
+ var mT = prompt("Now tell me, how many miles have we yet to travel?");
  while(mT===""|| isNaN(mT)){
      mT= prompt("Gwwwwwwgrrruuuuurrrrr!!!");
  }
