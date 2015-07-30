@@ -12,44 +12,28 @@ Assignment
                                     //Circumference of a circle!
  //Prompt user
  var rad = prompt ("What's the radius of the circle?");
-
- //Function to find it
+//Function to find it
  function circleCircumf(rad){
-
      var dia= 2*rad;
      var cir= dia * Math.PI;
-
-
-     //Console log it out
+//Console log it out
      //console.log("The circumference is: "+cir);
      return cir;
-
  }
-
  var hold= circleCircumf(rad);
-
  console.log("The circumference of your circle is: "+hold+".");
 
 
 
 
-
-
-
                             //How man bees will it take to kill you!?!?!
-
  var weight= prompt("How much do you weigh?");
-
  function killerBees(w){
-
      var total= w*8.6666666667;
-
      //console log it out
      //console.log("If you weigh "+weight+"lbs, then it would take "+total+" bees to kill you");
-
      return total;
  }
  var b = killerBees(weight);
-
  console.log("You would die from "+b+" bees.");
 
